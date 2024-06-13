@@ -25,7 +25,7 @@ public class SicrediAppApplication implements CommandLineRunner {
         List<Map<String, Object>> usuarios = jdbcTemplate.queryForList("SELECT * FROM usuario");
 
         if (usuarios.isEmpty()) {
-            System.out.println("Nenhum usuário encontrado no banco de dados.");
+            System.out.println("Nenhum usuário encontrado no banco");
         } else {
             System.out.println("Usuários encontrados no banco de dados:");
             for (Map<String, Object> usuario : usuarios) {
