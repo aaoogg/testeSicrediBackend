@@ -1,3 +1,7 @@
+/**
+ * Author: Antônio Oscar Gehrke
+ */
+
 package br.com.sicrediApp.sicrediApp;
 
 import org.springframework.context.annotation.Configuration;

@@ -1,3 +1,7 @@
+/**
+ * Author: Antônio Oscar Gehrke
+ */
+
 package br.com.sicrediApp.sicrediApp.voto;
 
 import org.springframework.beans.factory.annotation.Autowired;

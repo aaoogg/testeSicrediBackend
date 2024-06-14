@@ -1,3 +1,7 @@
+/**
+ * Author: Antônio Oscar Gehrke
+ */
+
 package br.com.sicrediApp.sicrediApp.voto;
 
 import br.com.sicrediApp.sicrediApp.usuario.Usuario;

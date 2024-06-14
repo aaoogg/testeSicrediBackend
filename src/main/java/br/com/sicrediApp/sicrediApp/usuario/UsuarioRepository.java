@@ -1,3 +1,7 @@
+/**
+ * Author: Antônio Oscar Gehrke
+ */
+
 package br.com.sicrediApp.sicrediApp.usuario;
 
 import org.springframework.data.jpa.repository.JpaRepository;
