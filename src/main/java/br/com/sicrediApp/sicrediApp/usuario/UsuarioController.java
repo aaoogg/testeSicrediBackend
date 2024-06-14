@@ -42,7 +42,7 @@ public class UsuarioController {
             
             if (usuarioJaExistente) {
                 // Usuário já cadastrado, retornar um aviso para o front-end
-                return ResponseEntity.status(HttpStatus.CONFLICT).body(null); // HTTP 409 - Conflito
+                return ResponseEntity.status(HttpStatus.CONFLICT).body(null);
             }
             
             // Caso não exista, salva o novo usuário

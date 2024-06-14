@@ -68,7 +68,7 @@ public class PautaController {
         // Iniciar uma nova thread para contar 60 segundos
         new Thread(() -> {
             try {
-                Thread.sleep(600000); // Esperar 60 segundos
+                Thread.sleep(60000); // Esperar 60 segundos
             } catch (InterruptedException e) {
                 Thread.currentThread().interrupt();
             }
@@ -93,7 +93,7 @@ public class PautaController {
         }
         Pauta pauta = pautaOpt.get();
         if (!pauta.getPautaEmVotacao()) {
-            return ResponseEntity.status(HttpStatus.FORBIDDEN).build(); // Votação não está em andamento
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).build();
         }
         pauta.setPautaEmVotacao(false);
         pauta.setVotacaoFinalizada(true);

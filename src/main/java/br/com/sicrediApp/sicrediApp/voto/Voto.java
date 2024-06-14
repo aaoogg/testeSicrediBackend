@@ -22,7 +22,6 @@ public class Voto {
 
     private Boolean voto;
 
-    // Getters e Setters
     public Long getId() {
         return id;
     }

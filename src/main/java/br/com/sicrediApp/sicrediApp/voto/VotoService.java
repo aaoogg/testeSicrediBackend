@@ -22,7 +22,7 @@ public class VotoService {
     private PautaRepository pautaRepository;
 
     @Autowired
-    private UsuarioRepository usuarioRepository; // Certifique-se de ter um repositório para usuários
+    private UsuarioRepository usuarioRepository;
 
     public ResponseEntity<String> verificarERegistrarVoto(Long pautaId, Long usuarioId, Boolean voto) {
         boolean jaVotou = votoRepository.existsByUsuarioIdAndPautaId(usuarioId, pautaId);

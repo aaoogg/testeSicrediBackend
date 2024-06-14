@@ -12,10 +12,9 @@ public class Usuario {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String usuario; // Alteração para 'usuario' em vez de 'username'
-    private String senha;   // Alteração para 'senha' em vez de 'password'
+    private String usuario;
+    private String senha;
 
-    // Construtores, getters e setters
     public Usuario() {
     }
 
