@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/votos")
+@CrossOrigin(origins = "http://localhost:4200")
 public class VotoController {
 
     private final VotoRepository votoRepository;
